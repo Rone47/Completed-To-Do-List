@@ -94,3 +94,26 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .box {
+    max-width: 90%; /* Make the box nearly full width on smaller screens */
+  }
+
+  .item {
+    min-height: auto; /* Adjust item height for smaller screens */
+  }
+
+  input[type="text"] {
+    width: 100%; /* Make the input field full width on smaller screens */
+  }
+
+  button {
+    width: 100px; /* Adjust button width for better touch interaction */
+  }
+}
